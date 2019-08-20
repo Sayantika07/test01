@@ -51,5 +51,7 @@
 	<classpathentry kind="lib" path="D:/selenium-server-standalone-3.141.59.jar"/>
 	<classpathentry kind="lib" path="D:/log4j/apache-log4j-1.2.17/log4j-1.2.17.jar"/>
 	<classpathentry kind="lib" path="D:/Software/selenium-2.52.0/libs/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/jdbc_driver/mysql-connector-java-5.1.46/mysql-connector-java-5.1.46.jar"/>
+	<classpathentry kind="lib" path="C:/jdbc_driver/mysql-connector-java-5.1.46/mysql-connector-java-5.1.46-bin.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
