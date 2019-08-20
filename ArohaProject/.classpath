@@ -47,7 +47,6 @@
 	<classpathentry kind="lib" path="D:/Selenium_jars/POI/poi-4.1.0/lib/jaxb-api-2.3.0.jar"/>
 	<classpathentry kind="lib" path="D:/Selenium_jars/POI/poi-4.1.0/lib/jaxb-core-2.3.0.1.jar"/>
 	<classpathentry kind="lib" path="D:/Selenium_jars/POI/poi-4.1.0/lib/jaxb-impl-2.3.0.1.jar"/>
-	<classpathentry kind="lib" path="D:/Selenium_jars/POI/poi-4.1.0/lib/junit-4.12.jar"/>
 	<classpathentry kind="lib" path="D:/Selenium_jars/POI/poi-4.1.0/lib/log4j-1.2.17.jar"/>
 	<classpathentry kind="lib" path="D:/selenium-server-standalone-3.141.59.jar"/>
 	<classpathentry kind="lib" path="D:/log4j/apache-log4j-1.2.17/log4j-1.2.17.jar"/>
