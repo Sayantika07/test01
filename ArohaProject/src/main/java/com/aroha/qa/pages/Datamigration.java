@@ -49,7 +49,7 @@ package com.aroha.qa.pages;
 	public void Database_Reconciliation_test() {
 	try
 	{
-	pstmt=con.prepareStatement("Select count(*) from cust_source_inc");
+	pstmt=con.prepareStatement("Select count(*) from cust_source");
 
 
 	res=pstmt.executeQuery();
@@ -58,7 +58,7 @@ package com.aroha.qa.pages;
 	sourcecount=res.getInt(1);
 	System.out.println(" "+ sourcecount);
 	}
-	pstmt=con.prepareStatement("Select count(*) from cust_tgt");
+	pstmt=con.prepareStatement("Select count(*) from cust_target");
 	res=pstmt.executeQuery();
 	while(res.next()==true)
 	{
