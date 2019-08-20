@@ -24,7 +24,7 @@ public TestBase()
 {
 try {
 prop=new Properties();
-FileInputStream ip=new FileInputStream("D:\\Aroha_app\\ArohaProject\\src\\main\\java\\com\\qa\\config\\conf.properties");
+FileInputStream ip=new FileInputStream("C:\\Users\\sayantika\\git\\test01\\ArohaProject\\src\\main\\java\\com\\qa\\config\\conf.properties");
 prop.load(ip);
 }
 catch(FileNotFoundException e )
