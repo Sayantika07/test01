@@ -2,38 +2,38 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Aroha suite" duration-ms="21729" started-at="2019-08-20T12:19:24Z" finished-at="2019-08-20T12:19:46Z">
+  <suite name="Default suite" duration-ms="34080" started-at="2019-08-26T04:23:38Z" finished-at="2019-08-26T04:24:12Z">
     <groups>
     </groups>
-    <test name="sandeep test" duration-ms="21729" started-at="2019-08-20T12:19:24Z" finished-at="2019-08-20T12:19:46Z">
+    <test name="Default test" duration-ms="34080" started-at="2019-08-26T04:23:38Z" finished-at="2019-08-26T04:24:12Z">
       <class name="com.test.Datamigration">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.Datamigration@71318ec4]" name="setUp" is-config="true" duration-ms="372" started-at="2019-08-20T12:19:46Z" finished-at="2019-08-20T12:19:46Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.Datamigration@3108bc]" name="setUp" is-config="true" duration-ms="463" started-at="2019-08-26T04:23:38Z" finished-at="2019-08-26T04:23:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Database_Reconciliation_test()[pri:0, instance:com.test.Datamigration@71318ec4]" name="Database_Reconciliation_test" duration-ms="27" started-at="2019-08-20T12:19:46Z" finished-at="2019-08-20T12:19:46Z">
+        <test-method status="PASS" signature="Database_Reconciliation_test()[pri:0, instance:com.test.Datamigration@3108bc]" name="Database_Reconciliation_test" duration-ms="27" started-at="2019-08-26T04:23:38Z" finished-at="2019-08-26T04:23:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Database_Reconciliation_test -->
-        <test-method status="PASS" signature="finalcall()[pri:0, instance:com.test.Datamigration@71318ec4]" name="finalcall" is-config="true" duration-ms="2" started-at="2019-08-20T12:19:46Z" finished-at="2019-08-20T12:19:46Z">
+        <test-method status="PASS" signature="finalcall()[pri:0, instance:com.test.Datamigration@3108bc]" name="finalcall" is-config="true" duration-ms="2" started-at="2019-08-26T04:23:38Z" finished-at="2019-08-26T04:23:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finalcall -->
       </class> <!-- com.test.Datamigration -->
       <class name="com.test.LoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.LoginTest@31610302]" name="setUp" is-config="true" duration-ms="7746" started-at="2019-08-20T12:19:24Z" finished-at="2019-08-20T12:19:32Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.LoginTest@370736d9]" name="setUp" is-config="true" duration-ms="10226" started-at="2019-08-26T04:23:38Z" finished-at="2019-08-26T04:23:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Logintest()[pri:0, instance:com.test.LoginTest@31610302]" name="Logintest" duration-ms="12660" started-at="2019-08-20T12:19:32Z" finished-at="2019-08-20T12:19:45Z">
+        <test-method status="PASS" signature="Logintest()[pri:0, instance:com.test.LoginTest@370736d9]" name="Logintest" duration-ms="22607" started-at="2019-08-26T04:23:48Z" finished-at="2019-08-26T04:24:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logintest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.LoginTest@31610302]" name="tearDown" is-config="true" duration-ms="866" started-at="2019-08-20T12:19:45Z" finished-at="2019-08-20T12:19:46Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.LoginTest@370736d9]" name="tearDown" is-config="true" duration-ms="721" started-at="2019-08-26T04:24:11Z" finished-at="2019-08-26T04:24:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.test.LoginTest -->
-    </test> <!-- sandeep test -->
-  </suite> <!-- Aroha suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -6,13 +6,13 @@
   </listeners>
   <test thread-count="5" name="sandeep test(failed)">
     <classes>
-      <class name="com.test.LoginTest">
+      <class name="com.test.Datamigration">
         <methods>
-          <include name="tearDown"/>
+          <include name="finalcall"/>
           <include name="setUp"/>
-          <include name="Logintest"/>
+          <include name="Database_Reconciliation_test"/>
         </methods>
-      </class> <!-- com.test.LoginTest -->
+      </class> <!-- com.test.Datamigration -->
     </classes>
   </test> <!-- sandeep test(failed) -->
 </suite> <!-- Failed suite [Aroha suite] -->

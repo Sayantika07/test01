@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.aroha.qa.pages.Datamigration">
+      <class name="com.test.Datamigration">
         <methods>
+          <include name="finalcall"/>
           <include name="setUp"/>
           <include name="Database_Reconciliation_test"/>
-          <include name="finalcall"/>
         </methods>
-      </class> <!-- com.aroha.qa.pages.Datamigration -->
+      </class> <!-- com.test.Datamigration -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

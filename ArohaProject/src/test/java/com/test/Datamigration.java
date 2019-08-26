@@ -58,7 +58,7 @@ while(res.next()==true)
 sourcecount=res.getInt(1);
 System.out.println(" "+ sourcecount);
 }
-pstmt=con.prepareStatement("Select count(*) from cust_target");
+pstmt=con.prepareStatement("Select count(*) from cust_target1");
 res=pstmt.executeQuery();
 while(res.next()==true)
 {
