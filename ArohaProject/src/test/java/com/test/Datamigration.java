@@ -4,9 +4,6 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.mysql.jdbc.Connection;
-import com.mysql.jdbc.PreparedStatement;
-
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -14,7 +11,7 @@ import java.sql.SQLException;
 import org.testng.Assert;
 
 
-public class Datamigration {
+public class Datamigration<PreparedStatement> {
 	String url="jdbc:mysql://192.168.1.254:3306/sayantika";
 	String userid="sayantika";
 	String passwd="sayantika";
